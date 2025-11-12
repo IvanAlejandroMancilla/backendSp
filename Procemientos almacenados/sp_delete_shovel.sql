@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER = `root`@`localhost` PROCEDURE `sp_delete_shovel_V2`(
+CREATE DEFINER = `root`@`localhost` PROCEDURE `sp_delete_shovel`(
     IN p_serialNumber VARCHAR(255)
 )
 BEGIN

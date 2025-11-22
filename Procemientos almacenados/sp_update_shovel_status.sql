@@ -1,4 +1,4 @@
-sistemagestionDELIMITER $$
+DELIMITER $$
 
 CREATE DEFINER = `root`@`localhost` PROCEDURE `sp_update_shovel_status`(
     IN p_serialNumber VARCHAR(255),
